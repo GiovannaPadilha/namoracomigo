@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(124, 228, 225);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.YN{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imagem {
+  width: 200px; /* Tamanho desejado */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto; /* Centraliza horizontalmente se quiser */
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ou 'contain' se quiser mostrar a imagem inteira */
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+    height: 15px;
+    background: #212020;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
